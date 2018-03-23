@@ -3,6 +3,16 @@
  *	v1.24
  */
 
+
+/* sobreescribir tamaño de imagen */
+.item img { 
+  width: 250px !important; 
+  height: 165px !important; 
+  /*margin: 30px !important;*/
+  padding: 10px !important;
+}
+
+
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
