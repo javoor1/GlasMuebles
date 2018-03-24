@@ -1,40 +1,40 @@
-jQuery(document).ready(function($) { "use strict";
+$(document).ready(function($) {
 
 
 	
 	/* Scroll Too */
 	
-			$(window).load(function(){
+			// $(window).load(function(){
 				
-				/* Page Scroll to id fn call */
-				$("ul.cd-nav li a,a[href='#top'],a[data-gal='m_PageScroll2id']").mPageScroll2id({
-					highlightSelector:"ul.cd-nav li a",
-					offset: 40,
-					scrollSpeed:1000,
-					scrollEasing: "easeInOutCubic"
-				});
+			// 	/* Page Scroll to id fn call */
+			// 	$("ul.cd-nav li a,a[href='#top'],a[data-gal='m_PageScroll2id']").mPageScroll2id({
+			// 		highlightSelector:"ul.cd-nav li a",
+			// 		offset: 40,
+			// 		scrollSpeed:1000,
+			// 		scrollEasing: "easeInOutCubic"
+			// 	});
 				
-				/* demo functions */
-				$("a[rel='next']").click(function(e){
-					e.preventDefault();
-					var to=$(this).parent().parent("section").next().attr("id");
-					$.mPageScroll2id("scrollTo",to);
-				});
+			// 	/* demo functions */
+			// 	$("a[rel='next']").click(function(e){
+			// 		e.preventDefault();
+			// 		var to=$(this).parent().parent("section").next().attr("id");
+			// 		$.mPageScroll2id("scrollTo",to);
+			// 	});
 				
-			});
+			// });
 	
 	
 	
  	//Parallax
 	
-	$('.parallax-contact').parallax("50%", 0.4);
-	$('.parallax-about-1').parallax("50%", 0.4);
-	$('.parallax-services-1').parallax("50%", 0.2);
+	// $('.parallax-contact').parallax("50%", 0.4);
+	// $('.parallax-about-1').parallax("50%", 0.4);
+	// $('.parallax-services-1').parallax("50%", 0.2);
 		
 	
 	//Tooltip
 	
-	$(".tipped").tipper();	
+	// $(".tipped").tipper();	
 
  	
 	/* Top Carousel */
