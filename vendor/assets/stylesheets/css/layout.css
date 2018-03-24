@@ -688,25 +688,26 @@ main.scale-down {
 	overflow:hidden;
 }
 #owl-top .item.top-image-1{
-	background-image:url('../images/slider/1.jpg');
+	background-image:url('/assets/slider/1.jpg');
 }
 #owl-top .item.top-image-2{
-	background-image:url('../images/slider/2.jpg');
+	background-image:url('/assets/slider/2.jpg');
 }
 #owl-top .item.top-image-3{
-	background-image:url('../images/slider/3.jpg');
+	background-image:url('/assets/slider/3.jpg');
 }
+
 
 
 #owl-top.owl-theme .owl-controls .owl-buttons .owl-prev{
 	position:absolute;
 	left:0;
-	cursor: url(../images/grab-left.png) 8 8, move !important;
+	cursor: url(/assets/grab-left.png) 8 8, move !important;
 }
 #owl-top.owl-theme .owl-controls .owl-buttons .owl-next{
 	position:absolute;
 	right:0;
-	cursor: url(../images/grab-right.png) 8 8, move !important;
+	cursor: url(/assets/grab-right.png) 8 8, move !important;
 }
 #owl-top.owl-theme .owl-controls .owl-buttons .owl-next,
 #owl-top.owl-theme .owl-controls .owl-buttons .owl-prev{
@@ -738,7 +739,7 @@ main.scale-down {
 	width:15%;
 	height:100%;
 	z-index:2;
-	cursor: url(../images/grab-left.png) 8 8, move !important;
+	cursor: url(/assets/grab-left.png) 8 8, move !important;
 }
 .next{
 	position:absolute;
@@ -747,7 +748,7 @@ main.scale-down {
 	width:15%;
 	height:100%;
 	z-index:2;
-	cursor: url(../images/grab-right.png) 8 8, move !important;
+	cursor: url(/assets/grab-right.png) 8 8, move !important;
 }
 
 
@@ -859,7 +860,7 @@ a.top-button{
 	width:100%;
 	height:25%;
 	color: #000;
-	cursor: url(../images/grab-down.png) 8 8, move !important;
+	cursor: url(/assets/grab-down.png) 8 8, move !important;
 	z-index:100;
 }
 
@@ -886,7 +887,7 @@ a.top-button{
 	top:0;
 	left:0;
 	z-index:3;
-	cursor: url(../assets/images/grab-right-white.png) 8 8, move !important;
+	cursor: url(/assets/grab-right-white.png) 8 8, move !important;
 	background:rgba(0,0,0,0);
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
@@ -1010,7 +1011,7 @@ a.top-button{
 .scroll-to-top {
 	position: fixed;
 	background-color:#111111;
-	background-image:url('../images/grab-top-white.png');
+	background-image:url('/assets/grab-top-white.png');
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:8px 16px;
@@ -1486,7 +1487,7 @@ a.top-button{
 	height:100%;
 	top:0;
 	left:0;
-	cursor: url(../assets/images/grab-right-white.png) 8 8, move !important;
+	cursor: url(/assets/grab-right-white.png) 8 8, move !important;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1774,7 +1775,7 @@ a.top-button{
 	display:inline-block;
 	height:350px;
 	float:left;
-	background:url('../images/project-left.svg')no-repeat center center;
+	background:url('/assets/project-left.svg')no-repeat center center;
 	background-size:120px 120px;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
@@ -2425,7 +2426,7 @@ figure.vimeo a img, figure.youtube a img {
 	background-size: 32px 64px;
 	opacity:.7;
 	background-color:#16a085;
-	background-image: url("../images/cd-icon-controller.svg");
+	background-image: url("/assets/cd-icon-controller.svg");
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -2661,7 +2662,7 @@ figure.vimeo a img, figure.youtube a img {
 .footer{
 	padding-top:70px;
 	padding-bottom:70px;
-	background:url('/assets/images/pattern.png');
+	background:url('/assets/pattern.png');
 }
 .footer-img{
 	position:relative;
@@ -2740,7 +2741,7 @@ figure.vimeo a img, figure.youtube a img {
 ================================================== */
 
 .parallax-home {
-	background: url('../assets/images/parallax/1.jpg') repeat fixed;
+	background: url('/assets/parallax/1.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2794,7 +2795,7 @@ figure.vimeo a img, figure.youtube a img {
  
  
 .parallax-projects {
-	background: url('../assets/images/parallax/2.jpg') repeat fixed;
+	background: url('/assets/parallax/2.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2814,7 +2815,7 @@ figure.vimeo a img, figure.youtube a img {
 
  
 .parallax-about {
-	background: url('../assets/images/parallax/1.jpg') repeat fixed;
+	background: url('/assets/parallax/1.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2834,7 +2835,7 @@ figure.vimeo a img, figure.youtube a img {
 
  
 .parallax-about-1 {
-	background: url('../assets/images/parallax/3.jpg') repeat fixed;
+	background: url('/assets/parallax/3.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2863,7 +2864,7 @@ figure.vimeo a img, figure.youtube a img {
  
 
 .parallax-services {
-	background: url('../assets/images/parallax/4.jpg') repeat fixed;
+	background: url('/assets/parallax/4.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2883,7 +2884,7 @@ figure.vimeo a img, figure.youtube a img {
 
 
 .parallax-services-1 {
-	background: url('../assets/images/parallax/5.jpg') repeat fixed;
+	background: url('/assets/parallax/5.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2955,7 +2956,7 @@ figure.vimeo a img, figure.youtube a img {
  
 
 .parallax-blog {
-	background: url('../assets/images/parallax/6.jpg') repeat fixed;
+	background: url('/assets/images/parallax/6.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -2975,7 +2976,7 @@ figure.vimeo a img, figure.youtube a img {
 
 
 .parallax-contact {
-	background: url('../assets/images/parallax/7.jpg') repeat fixed;
+	background: url('/assets/images/parallax/7.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
@@ -3053,7 +3054,7 @@ figure.vimeo a img, figure.youtube a img {
 
 
 .parallax-project-7 {
-	background: url('../assets/images/parallax/7.jpg') repeat fixed;
+	background: url('/assets/images/parallax/7.jpg') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
