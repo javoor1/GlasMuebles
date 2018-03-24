@@ -10,6 +10,7 @@ module GlassMuebles
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
+    config.assets.initialize_on_precompile = false
     config.assets.paths << Rails.root.join("GlassMuebles", "assets", "vendor", "javascripts", "js", "furniture")
 
     # Settings in config/environments/* take precedence over those specified here.

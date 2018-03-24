@@ -2000,14 +2000,14 @@ a.top-button{
     transform: scale(0.95);
 }
 .pricing-item:hover{
-    -webkit-transform: scale(1);
+    /*-webkit-transform: scale(1);*/
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
 }
 .pricing-item.popular{
-    -webkit-transform: scale(1);
+    /*-webkit-transform: scale(1);*/
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
@@ -2377,7 +2377,7 @@ figure.vimeo a img, figure.youtube a img {
     -o-transition: all 300ms linear;
     -ms-transition: all 300ms linear;
     transition: all 300ms linear; 
-	a -webkit-transform: scale(1);
+	 /*a -webkit-transform: scale(1);*/
 	transform: scale(1);
 }
 
