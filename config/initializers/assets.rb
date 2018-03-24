@@ -23,6 +23,15 @@ Rails.application.config.assets.precompile += %w( cbpAnimatedHeader.min.js )
 Rails.application.config.assets.precompile += %w( jquery.fs.tipper.min.js )
 Rails.application.config.assets.precompile += %w( owl.carousel.min.js )
 Rails.application.config.assets.precompile += %w( jquery.animsition.min.js )
-
+Rails.application.config.assets.precompile += %w( main.js )
+Rails.application.config.assets.precompile += %w( jquery.chaffle.min.js )
+Rails.application.config.assets.precompile += %w( imagesloaded.pkgd.min.js )
+Rails.application.config.assets.precompile += %w( masonry.js )
+Rails.application.config.assets.precompile += %w( isotope.js )
+Rails.application.config.assets.precompile += %w( waypoints.min.js )
+Rails.application.config.assets.precompile += %w( custom.js )
+Rails.application.config.assets.precompile += %w( contact.js )
+Rails.application.config.assets.precompile += %w( scrollReveal.js )
+Rails.application.config.assets.precompile += %w( jquery.counterup.min.js )
 
 

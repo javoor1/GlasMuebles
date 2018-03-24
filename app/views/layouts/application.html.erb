@@ -50,9 +50,12 @@
     <%= yield %>
 
     <!-- <script type="text/javascript" src="/assets/js/jquery-2.1.1.js"></script> -->
-		<script type="text/javascript" src="/assets/main.js"></script>
+    <!-- <script type="text/javascript" src="/assets/main.js"></script> -->
+    <!-- <script type="text/javascript" src="/assets/scroll.js"></script>-->
+    <%= javascript_include_tag("jquery-2.1.1.js") %>
+    <%= javascript_include_tag("main.js") %>
 		<%= javascript_include_tag("scroll.js") %>
-		<!-- <script type="text/javascript" src="/assets/scroll.js"></script>-->
+		
 		<script type="text/javascript"> 
 		(function($) { "use strict";          
 					jQuery(document).ready(function() {
@@ -119,14 +122,23 @@
 			});
 		})(jQuery);
 		</script>
-		<script type="text/javascript" src="/assets/jquery.chaffle.min.js"></script>
+		<%= javascript_include_tag("jquery.chaffle.min.js") %>
+		<%= javascript_include_tag("jquery.parallax-1.1.3.js") %>
+		<%= javascript_include_tag("imagesloaded.pkgd.min.js") %>
+		<%= javascript_include_tag("masonry.js") %>
+		<%= javascript_include_tag("isotope.js") %>
+		<%= javascript_include_tag("jquery.counterup.min.js") %>
+		<%= javascript_include_tag("waypoints.min.js") %>
+		<%= javascript_include_tag("scrollReveal.js") %>
+		<!-- <script type="text/javascript" src="/assets/jquery.chaffle.min.js"></script>
 		<script type="text/javascript" src="/assets/jquery.parallax-1.1.3.js"></script>		
 		<script type="text/javascript" src="/assets/imagesloaded.pkgd.min.js"></script> 
 		<script type="text/javascript" src="/assets/masonry.js"></script> 
 		<script type="text/javascript" src="/assets/isotope.js"></script> 
 		<script type="text/javascript" src="/assets/jquery.counterup.min.js"></script>
 		<script type="text/javascript" src="/assets/waypoints.min.js"></script>
-		<script type="text/javascript" src="/assets/scrollReveal.js"></script>
+		<script type="text/javascript" src="/assets/scrollReveal.js"></script> -->
+
 		<script type="text/javascript">
 		(function($) { "use strict";
 		      window.scrollReveal = new scrollReveal();
@@ -138,8 +150,11 @@
 				your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
 				coordinates for map you can change in custom-contact.js file 
 			================== -->	
-		<script type="text/javascript" src="/assets/contact.js"></script>
-		<script type="text/javascript" src="/assets/custom.js"></script>
+		<!-- <script type="text/javascript" src="/assets/contact.js"></script>
+		// <script type="text/javascript" src="/assets/custom.js"></script> -->
+		
+		<%= javascript_include_tag("custom.js") %>
+		<%= javascript_include_tag("contact.js") %>
 
 
   </body>

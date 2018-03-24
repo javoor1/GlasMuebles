@@ -1,0 +1,1 @@
+jQuery(document).ready(function(c){function e(n){c(".cd-nav-container, .cd-overlay").toggleClass("is-visible",n),c("main").toggleClass("scale-down",n)}c(".cd-nav-trigger").on("click",function(n){n.preventDefault(),e(!0)}),c(".cd-close-nav, .cd-overlay").on("click",function(n){n.preventDefault(),e(!1)}),c(".cd-nav li").on("click",function(){e(!1)})});
